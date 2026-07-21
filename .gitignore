@@ -1,0 +1,29 @@
+# Build outputs (CMake / Ninja - desktop)
+/build/
+/build_*/
+
+# Android / Gradle
+src/android/local.properties
+src/android/build_log.txt
+src/android/.gradle/
+src/android/.kotlin/
+src/android/build/
+src/android/app/build/
+src/android/app/.cxx/
+src/android/**/*.apk
+src/android/**/*.aab
+
+# vcpkg caches (baixados/gerados automaticamente durante o build)
+dependencies/vcpkg/packages/
+dependencies/vcpkg/downloads/
+dependencies/vcpkg/buildtrees/
+dependencies/vcpkg/installed/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Sistema
+.DS_Store
+Thumbs.db
